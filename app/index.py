@@ -50,7 +50,7 @@ def calc_metrics(latencies, uptimes, threshold, region=None):
 # ---------- routes ----------
 @app.get("/")
 def health():
-    return {"msg": "FastAPI on Vercel works fine! :-) hello rituraj here :-) Oooooo! it working"}
+    return {"msg": "FastAPI on Vercel works fine. I am Avinash! and I am new to Vercel and FastAPI"}
 
 @app.post("/api/latency")
 def latency_metrics(body: LatencyRequest):
